@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var c="";
+		var d="";
+		for(i=1;i<=100;i++){
+		if(i%2==0){
+			c=c+i;
+			}else{
+				d=d+i
+			}
+	
+	}
+document.write(c+" ");
+	document.write("<br>")
+	document.write(d+" ");
+	document.write("<hr>");
+	var a="";
+		var b="";
+		var c="";
+		for(i=1;i<=100;i++){
+			if(i%3==0){
+			document.write(i+"a"+" ");
+			a++
+			}
+			if(i%5==0){
+			document.write(i+"b"+" ");
+			b++
+			}
+			if(i%5==0 && i%3==0){
+			document.write(i+"c"+" ");
+			c++
+			}
+			
+		}
+		document.write("<br>");
+		document.write("a的值为："+a);
+		document.write("<br>");
+		document.write("b的值为："+b);
+		document.write("<br>");
+		document.write("c的值为："+c);
+
+</script>
+</body>
+</html>
